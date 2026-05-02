@@ -1,0 +1,13 @@
+{
+  "name": "gauge-taiko-template",
+  "description": "Starter template for writing JavaScript tests for Gauge",
+  "scripts": {
+    "test:gauge": "gauge run specs"
+  },
+  "dependencies": {
+    "taiko": "latest"
+  },
+  "devDependencies": {
+    "puppeteer": "^24.42.0"
+  }
+}
