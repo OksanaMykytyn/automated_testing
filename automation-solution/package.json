@@ -1,0 +1,23 @@
+{
+  "name": "automation-solution",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "test:unit": "jest tests/unit",
+    "test:api": "jest tests/api",
+    "test:ui": "jest tests/ui",
+    "test:e2e": "jest tests/e2e"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.15.2"
+  },
+  "devDependencies": {
+    "jest": "^30.3.0",
+    "puppeteer": "^24.42.0"
+  }
+}
